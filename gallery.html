@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Gallery – Serenity Yoga Studio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Lightbox2 CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <!-- Logo -->
+            <div class="nav-logo">
+                <a href="index.html">🧘‍♀️ Serenity Yoga</a>
+            </div>
+
+            <!-- Desktop Menu -->
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link" target="_blank">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link" target="_blank">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="benefits.html" class="nav-link" target="_blank">Benefits</a>
+                </li>
+                <li class="nav-item">
+                    <a href="classes.html" class="nav-link" target="_blank">Classes</a>
+                </li>
+                <li class="nav-item">
+                    <a href="instructors.html" class="nav-link" target="_blank">Instructors</a>
+                </li>
+                <li class="nav-item">
+                    <a href="gallery.html" class="nav-link" target="_blank">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="testimonials.html" class="nav-link" target="_blank">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link" target="_blank">Contact</a>
+                </li>
+            </ul>
+
+            <!-- Mobile Menu Toggle -->
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="page-hero">
+        <div class="hero-content">
+            <h1>Our Gallery</h1>
+            <p>Moments of peace, strength, and community from our studio.</p>
+        </div>
+    </section>
+
+    <!-- GALLERY FILTERS -->
+    <section class="gallery-filters">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="classes">Classes</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+                <button class="filter-btn" data-filter="studio">Studio</button>
+                <button class="filter-btn" data-filter="community">Community</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY GRID -->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="gallery-grid" id="gallery-grid">
+                <!-- Class Photos -->
+                <a href="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1200&h=800&fit=crop" 
+                   data-lightbox="gallery" data-title="Sunset Vinyasa Flow" 
+                   class="gallery-item" data-category="classes">
+                    <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&h=400&fit=crop" alt="Sunset Vinyasa Flow" loading="lazy">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h4>Sunset Vinyasa</h4>
+                            <p>Friday 6:30 PM</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=1200&h=800&fit=crop" 
+                   data-lightbox="gallery" data-title="Morning Hatha Yoga" 
+                   class="gallery-item" data-category="classes">
+                    <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600&h=400&fit=crop" alt="Morning Hatha Yoga" loading="lazy">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h4>Morning Hatha</h4>
+                            <p>Mon & Wed 7:00 AM</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://images.unsplash.com/photo-1601925260368-ae2f83cf8bad?w=1200&h=800&fit=crop" 
+                   data-lightbox="gallery" data-title="Yin & Restore" 
+                   class="gallery-item" data-category="classes">
+                    <img src="https://images.unsplash.com/photo-1661308411865-4fce7576bef8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170" alt="Yin & Restore" loading="lazy">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h4>Yin & Restore</h4>
+                            <p>Sunday 5:00 PM</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Event Photos -->
+                <a href="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&h=800&fit=crop" 
+                   data-lightbox="gallery" data-title="Full Moon Meditation" 
+                   class="gallery-item" data-category="events">
+                    <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&h=400&fit=crop" alt="Full Moon Meditation" loading="lazy">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h4>Full Moon Meditation</h4>
+                            <p>Monthly Event</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://images.unsplash.com/photo-1758599880303-ab61dfc33586?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1332" 
+                   data-lightbox="gallery" data-title="Yoga & Brunch" 
+                   class="gallery-item" data-category="events">
+                    <img src="https://images.unsplash.com/photo-1758599880303-ab61dfc33586?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1332" alt="Yoga & Brunch" loading="lazy">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h4>Yoga & Brunch</h4>
+                            <p>Weekend Special</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Studio Photos -->
+                <a href="https://images.unsplash.com/photo-1512290926922-3f4a1c7b7511?w=1200&h=800&fit=crop" 
+                   data-lightbox="gallery" data-title="Main Studio Room" 
+                   class="gallery-item" data-category="studio">
+                    <img src="https://images.unsplash.com/photo-1602827114685-efbb2717da9f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2070" alt="Main Studio Room" loading="lazy">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h4>Main Studio</h4>
+                            <p>Bamboo floors & natural light</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200&h=800&fit=crop" 
+                   data-lightbox="gallery" data-title="Reception & Lounge" 
+                   class="gallery-item" data-category="studio">
+                    <img src="https://images.unsplash.com/photo-1660557989695-14fac79c086d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=764" alt="Reception & Lounge" loading="lazy">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h4>Reception</h4>
+                            <p>Warm welcome area</p>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Community Photos -->
+                <a href="https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?w=1200&h=800&fit=crop" 
+                   data-lightbox="gallery" data-title="Group Practice" 
+                   class="gallery-item" data-category="community">
+                    <img src="https://images.unsplash.com/photo-1687181133349-d37c0e42d323?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170" alt="Group Practice" loading="lazy">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h4>Community Flow</h4>
+                            <p>United in breath</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://images.unsplash.com/photo-1588286724497-55c3d3d8e2d6?w=1200&h=800&fit=crop" 
+                   data-lightbox="gallery" data-title="Kids Yoga Fun" 
+                   class="gallery-item" data-category="community">
+                    <img src="https://images.unsplash.com/photo-1527212986666-4d2d47a80d5f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=735" alt="Kids Yoga Fun" loading="lazy">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h4>Kids Adventure</h4>
+                            <p>Saturday 9:00 AM</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="https://images.unsplash.com/photo-1549570652-97324981a6fd?w=1200&h=800&fit=crop" 
+                   data-lightbox="gallery" data-title="Post-Class Glow" 
+                   class="gallery-item" data-category="community">
+                    <img src="https://images.unsplash.com/photo-1549570652-97324981a6fd?w=600&h=400&fit=crop" alt="Post-Class Glow" loading="lazy">
+                    <div class="overlay">
+                        <div class="overlay-content">
+                            <h4>Post-Class Glow</h4>
+                            <p>Feel the calm</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="gallery-cta">
+        <div class="container">
+            <h2>Be Part of Our Story</h2>
+            <p>Join us in the studio and create memories together.</p>
+            <a href="classes.html" class="btn btn-primary btn-large">Book Your First Class</a>
+        </div>
+    </section>
+
+ <!-- FOOTER -->
+<footer class="footer" aria-labelledby="footer-title">
+    <div class="container">
+        <div class="footer-grid">
+            <!-- Brand -->
+            <div class="footer-brand">
+                <h3 id="footer-title">
+                    <a href="index.html" class="footer-logo">Serenity Yoga</a>
+                </h3>
+                <p>Find your inner peace, one breath at a time.</p>
+                <div class="social-links">
+                   <a href="#" class="social-icon instagram" aria-label="Instagram">
+        <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+      </a>
+      <a href="#" class="social-icon whatsapp" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/></svg>
+      </a>
+                
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="classes.html">Classes</a></li>
+                    <li><a href="schedule-pricing.html">Schedule & Pricing</a></li>
+                    <li><a href="instructors.html">Instructors</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer-contact">
+                <h4>Visit Us</h4>
+                <p>
+                    <span class="icon">Map</span> 123 Lotus Lane, Bandra West<br>
+                    Mumbai, Maharashtra 400050
+                </p>
+                <p>
+                    <span class="icon">MOB</span> <a href="tel:+919876543210">+91 98765 43210</a>
+                </p>
+                <p>
+                    <span class="icon">Mail</span> <a href="mailto:hello@serenityyoga.in">hello@serenityyoga.in</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; <span id="current-year"></span> Serenity Yoga Studio. All rights reserved.</p>
+            <p class="made-with">Crafted with peace and precision</p>
+        </div>
+    </div>
+</footer>
+    <script src="script.js"></script>
+    <!-- Lightbox2 JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+</body>
+</html>
