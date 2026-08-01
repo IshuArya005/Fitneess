@@ -1,4 +1,4 @@
-# 🧘 Yoga Website
+# 🧘 Yoga Website  
 
 ## 📌 Overview
 
