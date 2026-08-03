@@ -8,7 +8,7 @@ The **Yoga Website** is a responsive and user-friendly website developed using *
     
 * 🏠 Responsive Home Page
 * 📖 About Yoga Section
-* 🧘 Yoga Classes with Schedule
+* 🧘 Yoga Classes with Schedule   
 * 👨‍🏫 Professional Trainers/Instructor Section
 * ⭐ Benefits of Yoga
 * 🖼️ Image Gallery
