@@ -3,7 +3,7 @@
 ## 📌 Overview
 
 The **Yoga Website** is a responsive and user-friendly website developed using **HTML, CSS, and JavaScript**. It is designed to help users explore yoga, learn about different yoga classes, and easily navigate through the website. The website provides information about yoga sessions, instructors, benefits of yoga, and contact details.
-                  
+                      
 ## 🚀 Features
     
 * 🏠 Responsive Home Page
